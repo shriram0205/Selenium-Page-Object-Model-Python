@@ -189,9 +189,9 @@ function showOutput(id, name) {
 
 <div class='heading'>
 <h1>Test Report</h1>
-<p class='attribute'><strong>Start Time:</strong> 2017-09-14 19:51:30</p>
-<p class='attribute'><strong>Duration:</strong> 0:02:07.813000</p>
-<p class='attribute'><strong>Status:</strong> Pass 8 Error 1</p>
+<p class='attribute'><strong>Start Time:</strong> 2017-09-14 23:44:41</p>
+<p class='attribute'><strong>Duration:</strong> 0:02:02.594000</p>
+<p class='attribute'><strong>Status:</strong> Pass 9</p>
 
 <p class='description'>Smoke Tests</p>
 </div>
@@ -221,44 +221,18 @@ function showOutput(id, name) {
     <td>View</td>
 </tr>
 
-<tr class='errorClass'>
+<tr class='passClass'>
     <td>tests.home.LoginTest.LoginTests</td>
     <td>9</td>
-    <td>8</td>
+    <td>9</td>
     <td>0</td>
-    <td>1</td>
+    <td>0</td>
     <td><a href="javascript:showClassDetail('c1',9)">Detail</a></td>
 </tr>
 
-<tr id='ft1.1' class='none'>
-    <td class='errorCase'><div class='testcase'>test_createAccount</div></td>
-    <td colspan='5' align='center'>
-
-    <!--css div popup start-->
-    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.1')" >
-        error</a>
-
-    <div id='div_ft1.1' class="popup_window">
-        <div style='text-align: right; color:red;cursor:pointer'>
-        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.1').style.display = 'none' " >
-           [x]</a>
-        </div>
-        <pre>
-        
-ft1.1: Traceback (most recent call last):
-  File "C:\Users\shriram\PycharmProjects\Gmail\tests\home\LoginTest.py", line 79, in test_createAccount
-    create_account_text = wait.until(EC.presence_of_element_located((By.XPATH, lp.createAccountText)))
-  File "C:\Anaconda2\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
-    raise TimeoutException(message, screen, stacktrace)
-TimeoutException: Message: 
-
-
-
-        </pre>
-    </div>
-    <!--css div popup end-->
-
-    </td>
+<tr id='pt1.1' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_createAccount</div></td>
+    <td colspan='5' align='center'>pass</td>
 </tr>
 
 <tr id='pt1.2' class='hiddenRow'>
@@ -304,9 +278,9 @@ TimeoutException: Message:
 <tr id='total_row'>
     <td>Total</td>
     <td>9</td>
-    <td>8</td>
+    <td>9</td>
     <td>0</td>
-    <td>1</td>
+    <td>0</td>
     <td>&nbsp;</td>
 </tr>
 </table>

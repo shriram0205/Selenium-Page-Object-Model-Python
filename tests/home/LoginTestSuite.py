@@ -13,7 +13,7 @@ class MyTestSuite(unittest.TestCase):
             unittest.defaultTestLoader.loadTestsFromModule(LoginTest)
         ])
 
-        outfile = open(direct + "\LoginReport.html", "w")
+        outfile = open(direct + "\LoginReport1.html", "w")
 
         runner1 = HTMLTestRunner.HTMLTestRunner(
             stream=outfile,
